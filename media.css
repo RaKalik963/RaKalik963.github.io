@@ -1,0 +1,309 @@
+@media screen and (max-width:768px){
+    .container{
+        width: 540px;
+    }
+    .header{
+        width: 730px;
+    }
+    .first, .second{
+        flex-direction: column;
+    }
+    .makers{
+        flex: none;
+    }
+    .makers div{
+        flex-direction: column;
+        
+    }
+    .makers .maker img{
+        width: 198px;
+        height: 250px;
+    }
+    .right-who img{
+        display: flex;
+    }
+    .right-who .photo1{
+        width: 74px; 
+        height: 147px;
+    }
+    .right-who .photo2, .photo3{
+        width: 124px;
+        height: 197px;
+    }
+    .right-who .photo1, .photo2 .photo3{
+        top: 0;
+        right: 0;
+        left: 0;
+        flex-direction: row;
+    }
+    .head-wh h1{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 95%;
+    }
+    .head-wh p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 20px;
+        font-weight: 200;
+    }
+    header input{
+        width: 100px;
+        height: 24px;
+        font-size: 7px;
+        font-weight: 200;
+        line-height: 17px;
+    }
+    header .input-search[type="search"]{
+        background-position: 10px;
+    }
+    header h1{
+        font-size: 15px;
+    }
+    .left-who h1{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 95%;
+    }
+    .left-who p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 100%;
+    }
+    .header li a{
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 19px;
+        margin-left: 20px;
+    }
+    .header .head-img{
+        width: 15px;
+        margin-right: 5px;
+    }
+    footer{
+        width: 740px;
+    }
+    footer .about-foot, .company-foot,.contact-foot{
+        margin-left: 30px;
+    }
+    footer .logo-foot p{
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 15px;
+        text-align: left;
+    }
+    footer .about-foot h3, .company-foot h3, .contact-foot h3{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    footer .about-foot a, .company-foot a, .contact-foot a{
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 10px;
+    }
+    .choise{
+        width: 740px;
+        margin: 0 auto;
+    }
+    .choise .active{
+        margin-right: 5px;
+    }
+    .sp-of-fashion .container div{
+        flex-direction: column;
+    }
+    .brand{
+        width: 740px;
+        margin: 0 auto;
+    }
+    .about-us {
+        width: 540px;
+        margin: 0 auto;
+    }
+    .about-us .container div{
+        flex: none;
+        flex-direction: column;
+    }
+    .left img{
+        width: 258px;
+        height: 360px;
+        border-radius: 10px;
+    }
+    .right{
+        width: 200px;
+    }
+    .right h1{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .right p{
+        color: rgb(149, 146, 159);
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 200%;
+    }
+    .all{
+        width: 640px;
+        margin: 0 auto;
+    }
+    .links{
+        width: 340px;
+        margin: 0 auto;
+    }
+    .links a{
+        width: 68px;
+        height: 30px;
+        font-size: 10px;
+        color: #fff;
+        margin-left: 100px;
+    }
+    .cards .card{
+        flex: none;
+        flex-direction: column;
+    }
+    .card{
+        width: 189px;
+        height: 365px;
+    }
+    .card .image{
+        width: 137px;
+        height: 180px;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    .card .suui img{
+        width: 17px;
+        height: 14px;
+    }
+    .card .suui a{
+        font-size: 15px;
+        width: 191px;
+        height: 30px;
+    }
+    .creator{
+        width: 189px;
+        height: 355px
+    }
+    .up{
+        height:165px;
+        width: 189px;
+        position: relative;
+        background-size: cover;
+    }
+    .downn {
+        height: 190px;
+        width: 189px;
+    }
+    .downn .follow, .downn .followed{
+        width: 137px;
+        height: 30px;
+        font-size: 10px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .creator-img{
+        width: 59px;
+        height: 59px;
+    }
+    .creator-img, .creator-info p{
+        margin: 0 auto;
+    }
+    .creator-a{
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .creator-a img{
+        width: 13px;
+        height: 12px;
+    }
+    .creator-info p{
+        width: 157px;
+        height: 46px;
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .explore img{
+        width: 93px;
+        height: 327px;
+        align-items: center;
+    }
+    .explore p{
+        font-size: 15px;
+        width: 80px;
+    }
+    .sign img{
+        width: 30px;
+        height: 30px;
+    }
+    .sign-in .continue{
+        width: 80px;
+        font-size: 16px;
+    }
+    .sign-in .link{
+        width: 459px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:375px){
+    .container{
+        width: 295px;
+    }
+    .header{
+        width: 300px;
+    }
+    .first, .second{
+        flex-direction: column;
+    }
+    .makers{
+        flex: none;
+    }
+    .makers div{
+        flex-direction: column;
+        
+    }
+    .makers .maker img{
+        width: 198px;
+        height: 250px;
+    }
+    .right-who .photo1{
+        width: 174px; 
+        height: 247px;
+    }
+    .right-who .photo2, .photo3{
+        width: 224px;
+        height: 297px;
+    }
+    .head-wh h1{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 95%;
+    }
+    .head-wh p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 100%;
+    }
+    header input{
+        width: 150px;
+        height: 48px;
+    }
+    header .input-search[type="search"]{
+        background-position: 30px;
+    }
+}
